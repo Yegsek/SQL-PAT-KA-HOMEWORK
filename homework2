@@ -1,0 +1,10 @@
+//1.Soru Cevabı
+select replacement_cost from film
+where  length >=12.99 and length < 16.99;
+//2.Soru Cevabı
+ select * from actor
+  where first_name IN ('Penelope' , 'Nick' , 'Ed');
+//3. Sorunun Cevabı
+select  * from film 
+where rental_rate ın (0.99 , 2.99 , 4.99) and 
+replacement_cost ın (12.99 , 15.99 , 28.99);
