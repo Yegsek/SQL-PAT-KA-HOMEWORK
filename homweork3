@@ -1,0 +1,12 @@
+//1.Sorunun Cevabı
+select * from country 
+where country like 'A%a';
+//2.Sorunun Cevabı 
+select * from country
+where country like '%n';
+//3.Sorunun Cevabı
+select title from film
+where title like 'T___%';
+//4.Sorunun Cevabı
+select title length rental_rate from film 
+where title length like 'C% , length > 90 ' and rental_rate = 2.99 ;
