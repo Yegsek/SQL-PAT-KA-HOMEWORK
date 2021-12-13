@@ -1,0 +1,14 @@
+//1.sorunun Cevabı 
+select distinct replacement_cost from film;
+//2.Sorunun Cevabı 
+select count(distinct replacement_cost ) from film;
+//3. Sorunun Cevabı 
+select 
+
+
+//4.sorunun Cevabı 
+
+
+//5.Sorunun Cevabı
+select count from film 
+where city like ='R%';
