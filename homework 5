@@ -1,0 +1,17 @@
+//1.Sorunun Cevabı
+select * from film
+where title like '_n%'
+order by length desc
+limit 5 ;
+
+//2.Sorunun Cevabı 
+select from film 
+where title like '_n%'
+order by length asc
+offset 5
+limit 5;
+
+//3.Sorunun Cevabı
+SELECT * FROM customer 
+WHERE store_id = 1 
+ORDER BY last_name DESC LIMIT 4;
