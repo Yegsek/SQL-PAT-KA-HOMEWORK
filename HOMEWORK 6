@@ -1,0 +1,11 @@
+//1.Sorunun cevabı
+select avg(rental_rate)
+from film;
+//2.Sorunun cevabı
+select sum(
+
+//3.Sorunun cevabı
+
+
+//4.Sorunun Cevabı
+
